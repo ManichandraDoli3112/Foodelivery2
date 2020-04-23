@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="338dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Order Id"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="386dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Parcel Type"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/deliverycharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="437dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Delivery Charge"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="485dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Discount"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="537dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Total"
+        android:textColor="@color/colorDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:fontFamily="sans-serif-black"
+        android:text="ORDER DETAILS"
+        android:textColor="@color/colorDark"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/id1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="374dp"
+        android:layout_toRightOf="@+id/id"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/weight1"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="326dp"
+        android:layout_toRightOf="@+id/weight"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/deliverycharge1"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="274dp"
+        android:layout_toRightOf="@+id/deliverycharge"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/discount1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="227dp"
+        android:layout_toRightOf="@+id/discount"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/total1"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="202dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="175dp"
+        android:layout_toRightOf="@+id/total"
+        android:text="" />
+
+
+</RelativeLayout>
